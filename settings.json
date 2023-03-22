@@ -34,7 +34,8 @@
     "editor.autoClosingQuotes": "always",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
-        "source.fixAll.tslint": true
+        "source.fixAll.tslint": true,
+        "source.sortImports": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
 
