@@ -1,0 +1,72 @@
+{
+    //! Disable welcome screen on startup
+    "workbench.welcome.enabled": false,
+
+    //! Minimap
+    "editor.minimap.enabled": false,
+
+    //! breadcrumb
+    "breadcrumbs.enabled": false,
+
+    //! When enabled, will trim trailing whitespace when you save a file
+    "files.trimTrailingWhitespace": true,
+
+    //! Default end of line character
+    "files.eol": "\n",
+
+    //! workbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.preferredDarkColorTheme": "Tomorrow Night Blue",
+    "workbench.preferredHighContrastColorTheme": "Abyss",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+
+    //! emmet
+    "emmet.preferences": {},
+    "emmet.includeLanguages": { "javascript": "html" },
+
+    //! editor configuration
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    //! editor cosmetics settings
+    "editor.fontSize": 14,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 14,
+    "workbench.fontAliasing": "antialiased",
+
+    //! prettier configuration
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 160,
+    "prettier.singleQuote": true,
+    "prettier.bracketSameLine": true,
+    "prettier.tabWidth": 4,
+
+    //! eslint
+    "eslint.options": {
+        "rules": {
+            "import/default": "error",
+            "import/export": "error",
+            "import/named": "error",
+            "import/namespace": "error",
+            "import/no-duplicates": "error",
+            "import/no-named-as-default": "error",
+            "import/no-named-as-default-member": "error",
+            "import/no-unresolved": "error"
+        }
+    },
+
+    "tabnine.experimentalAutoImports": true,
+
+    "security.workspace.trust.untrustedFiles": "open"
+}
